@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: James Napier
-Credit: <list sources used, if any>
+Credit: Anoushka
 
 Assignment:
 
