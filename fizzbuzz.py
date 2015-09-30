@@ -48,12 +48,13 @@ nnumbers=input("How many numbers shall we print? ")
 multiples1=input("For multiples of what number shall we print 'Fizz'? ")
 multiples2=input("For multiples of wha tnumber shall we print 'Buzz'? ")
 
-F=int(multiples1)
-B=int(multiples2)
-
-    
-Fizz=(int(F)
-for f in range(0, int(nnumbers)+1):
-    print(f)
-    print(f
+for i in range(1, int(nnumbers)+1):
+    if i%3==0 and i%5==0:
+        print("FizzBuzz")
+    elif i%3==0:
+        print("Fizz")
+    elif i%5==0:
+        print("Buzz")
+    else:
+        print(i)
     
