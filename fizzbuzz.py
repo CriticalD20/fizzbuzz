@@ -1,13 +1,13 @@
 """
 fizzbuzz.py
-Author: <your name here>
+Author: James Napier
 Credit: <list sources used, if any>
 
 Assignment:
 
 Write a program that prints the numbers from 1 to 100. But for 
-multiples of three print “Fizz” instead of the number and for 
-the multiples of five print “Buzz”. For numbers which are multiples 
+multiples of three print "Fizz" instead of the number and for 
+the multiples of five print "Buzz". For numbers which are multiples 
 of both three and five print “FizzBuzz”.
 
 We will use a variation of this test in which the last number of 
@@ -44,3 +44,16 @@ Fizz
 Fizz
 Buzz
 """
+nnumbers=input("How many numbers shall we print? ")
+multiples1=input("For multiples of what number shall we print 'Fizz'? ")
+multiples2=input("For multiples of wha tnumber shall we print 'Buzz'? ")
+
+F=int(multiples1)
+B=int(multiples2)
+
+    
+Fizz=(int(F)
+for f in range(0, int(nnumbers)+1):
+    print(f)
+    print(f
+    
