@@ -49,11 +49,11 @@ multiples1=input("For multiples of what number shall we print 'Fizz'? ")
 multiples2=input("For multiples of wha tnumber shall we print 'Buzz'? ")
 
 for i in range(1, int(nnumbers)+1):
-    if i%3==0 and i%5==0:
+    if i%int(multiples1)==0 and i%int(multiples2)==0:
         print("FizzBuzz")
-    elif i%3==0:
+    elif i%int(multiples1)==0:
         print("Fizz")
-    elif i%5==0:
+    elif i%int(multiples2)==0:
         print("Buzz")
     else:
         print(i)
