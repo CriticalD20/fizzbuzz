@@ -46,7 +46,7 @@ Buzz
 """
 nnumbers=input("How many numbers shall we print? ")
 multiples1=input("For multiples of what number shall we print 'Fizz'? ")
-multiples2=input("For multiples of wha tnumber shall we print 'Buzz'? ")
+multiples2=input("For multiples of what number shall we print 'Buzz'? ")
 
 for i in range(1, int(nnumbers)+1):
     if i%int(multiples1)==0 and i%int(multiples2)==0:
